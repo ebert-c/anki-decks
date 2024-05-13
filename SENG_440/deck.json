@@ -1,0 +1,491 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "55d4a5df-114b-11ef-8181-2816a8554dfe",
+    "deck_config_uuid": "55d4ccdc-114b-11ef-aa4d-2816a8554dfe",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "55d4ccdc-114b-11ef-aa4d-2816a8554dfe",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-6e80f2ffc504000bb5773c754f485a57d5050d6d.jpg",
+        "paste-a5eaaee94c310f91c103be00758ac6001f40a908.jpg",
+        "paste-ed8275dff234f713a4e43be56c990f67141e74b7.jpg"
+    ],
+    "name": "SENG 440 - Embedded Systems",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -6526835071313320650,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 5856091440297949838,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -1029021929670247481,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Michael Barr Embedded System Definition",
+                "- Special purpose computer<br>- dedicated realtime function<br>- one/few pre-defined tasks<br>- specific rquirements<br>- often has task specific hardware"
+            ],
+            "guid": "EVjZu|iDfV",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Can embedded systems be optimized easier",
+                "Yes, due to specificiyty of tasks"
+            ],
+            "guid": "Q4!94^J)6",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Can embedded systems be mass produced easily",
+                "Yes, benefit from enconomies of scale"
+            ],
+            "guid": "zi[CuMD[Cf",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is cloud computing",
+                "<ul><li>distributed computing concept</li><li>lots of information, not time sensitive</li></ul>"
+            ],
+            "guid": "PF8?=vAZZ,",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define edge computing",
+                "<ul><li>distributed computing concept</li><li>brings computation and data storage close to data generation</li></ul>"
+            ],
+            "guid": "G0oeB;E0&F",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How are edge computing and embedded systems related",
+                "<ul><li>Edge computing is a concept</li><li>Embedded systems are an implemenation of that concep</li></ul>"
+            ],
+            "guid": "M.j4MF@%Ej",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "List 6 common characteristics of embedded systems",
+                "<div><ul><li>Single funcion - repetitive execution of specific task (or a few tasks)</li><li>Reactive and real time - continous interaction with environment, speed defined by environment</li><li>Tightly constrained - on various design metrics</li><li>Programmable - usually not user programmable</li><li>Low power, low size, low weight, low cost (usually)</li><li>not always a seperate block, often built into device</li></ul></div>"
+            ],
+            "guid": "P=q(=tmRXW",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are some examples of embedded systems",
+                "<ul><li>Simple appliances (washing/drying machines)</li><li>Elevator controls</li><li>Laser printer (computationally intensive)</li><li>Smartwatch</li><li>Embedded processors and co-processors</li></ul>"
+            ],
+            "guid": "zCMB>x77OV",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Traits of a PC (General Purpose Computer)",
+                "<ul><li>Medium performance on many applications</li><li>User programmable, could run feasibly anything</li><li>$$$$</li><li>bigger and heavier than ES</li><li>Significant power consumption</li><li>Typically not realtime OS</li></ul>"
+            ],
+            "guid": "G[Y=Ep)%lN",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a General Purpose Processor",
+                "GPP (General Purpose Processor)<br><ul><li>Refers to Architectures of processor/computer</li><li>Refers to what processor can do (large class of runnable applications on GPP)</li></ul>"
+            ],
+            "guid": "HMgVmPjAqQ",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the Academic Definition of Embedded Systems",
+                "Embedded Systems (ES)<br><ul><li>Refers to where system is implemented</li><li>System is embedded in another system</li><li>Refers to implementation of a processor/computer</li></ul>"
+            ],
+            "guid": "s6jO#_Iqj]",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to compare GPP and ES",
+                "Using common denominator of Architectures<br>Instruction set of processor"
+            ],
+            "guid": "J7M`H_P~7!",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Are floating point operations typically hardware supported",
+                "No, they are often translated into whole routines<br>Better to use fixed points to avoid higher power consumption/silicon area"
+            ],
+            "guid": "y9|*TYTg_?",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is data-level parallelism supported in hardware",
+                "Typically yes"
+            ],
+            "guid": "EqcXq{uXwN",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is instruction-level parallelism hardware supported",
+                "It could be but not always<br>Using pipeline processors"
+            ],
+            "guid": "I`-xN*`tpu",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many stages does a typical ARM pipeline have",
+                "3-stage or 5-stage pipeline"
+            ],
+            "guid": "McLdTpjy0O",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why do we need formalism in embedded system design?",
+                "Different design tasks at different level of abstraction<br>Need a common language for all members of the team"
+            ],
+            "guid": "vHc}1As`tX",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is used for formalizing designs",
+                "Unified Modeling Language (UML)"
+            ],
+            "guid": "jJ+c^3JnkT",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Non-Recurring Engineering (NRE) cost",
+                "Design Metric<br><ul><li>One time monetary cost of designing system</li></ul>"
+            ],
+            "guid": "oD%HghUOiM",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Time-to-market",
+                "Design Metric<br><ul><li>Time required to develop system to the point it can be released/sold to customers</li><li>This one is particularly critical due to market window</li></ul>"
+            ],
+            "guid": "p;[>X9AUZ%",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are Performance and Flexibility",
+                "Design metric<br><ul><li>Tradeoff between using specific components to increase performance without using to many such that you lose flexibility</li><li>More specialized units = less flexibility</li></ul>"
+            ],
+            "guid": "kkwaK@`zjA",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Power Consumption",
+                "Design Metric<br><ul><li>Amount of power being used by system</li><li>Specialized computing units means lower # of instructions</li><li>Less instructions = using power for computation instead of issuing instructions</li></ul>"
+            ],
+            "guid": "Ol2;hFR~V/",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Unit Cost",
+                "Design Metric<br><ul><li>Specialized computing units need additional silicon area</li><li>Each units production cost</li></ul>"
+            ],
+            "guid": "wje?LB8JZr",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a market window and how is it related to revenue",
+                "<img src=\"paste-6e80f2ffc504000bb5773c754f485a57d5050d6d.jpg\">"
+            ],
+            "guid": "pcaqed*#r7",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a linear cost function of design metrics",
+                "<img src=\"paste-ed8275dff234f713a4e43be56c990f67141e74b7.jpg\"><br>Each metric chosen along with a coefficient weighted by importance"
+            ],
+            "guid": "g`kS_oeU}J",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 2 main performance metrics",
+                "Latency<br>Throughput"
+            ],
+            "guid": "A5mGxrpLsk",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is latency",
+                "Time between start of task execution and end"
+            ],
+            "guid": "i,%FzJKi%n",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Throughput",
+                "Number of tasks processed per time unit"
+            ],
+            "guid": "D.z9&_CwqN",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is performance",
+                "Most widely used design metric<br><ul><li>How long system takes to execute a task</li><li>Measured by Latency and Throughput</li></ul>"
+            ],
+            "guid": "K@%k-e,wo9",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is speed-up",
+                "How to compare two computing systems<br><img src=\"paste-a5eaaee94c310f91c103be00758ac6001f40a908.jpg\">"
+            ],
+            "guid": "O`#)+rH7D]",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Should you say improve performance or increase performance",
+                "Always use improve no matter what"
+            ],
+            "guid": "f@rZ3<^bQd",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Firmware",
+                "Executable software stored within a ROM"
+            ],
+            "guid": "D~$%A:pS;X",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is U.S. Supreme Court Justice Potter Stewart's quote about obscenity. How does it relate to embedded systems",
+                "\"I know it when I see it\"<br>Hard to define ES, but should be recognizable"
+            ],
+            "guid": "K|%ns62W(<",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What was firmware originally used for",
+                "Microcode - microprograms written for microsequencers<br><br>Later on term coined to indicate functinoal replacement for hardware on low cost microprocessors"
+            ],
+            "guid": "vefPN{QJ&B",
+            "note_model_uuid": "55d51adb-114b-11ef-b9df-2816a8554dfe",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
